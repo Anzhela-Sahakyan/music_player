@@ -1,0 +1,17 @@
+.sort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  height: 30px;
+  padding: 3px;
+  cursor: pointer;
+  background-color: #f7f4f4;
+  transition: 0.2s ease-out;
+}
+
+.sort:hover {
+  background-color: var(--hover-color);
+  color: white;
+}

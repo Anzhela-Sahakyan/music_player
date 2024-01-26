@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid var(--border-color);
+  background-color: var(--main-color);
+  border-radius: 8px;
+}
+
+.header_btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.header_sort_search {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 740px) {
+  .header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header_sort_search,
+  .header_btns {
+    flex-direction: column;
+  }
+}

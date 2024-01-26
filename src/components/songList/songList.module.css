@@ -1,0 +1,52 @@
+.song_list {
+  position: relative;
+}
+
+.songlist_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.first_empty {
+  flex: 1;
+}
+
+.song_name,
+.artist_name {
+  flex: 4;
+}
+.track_number {
+  flex: 1;
+}
+
+.last_empty {
+  flex: 2.5;
+}
+.title_items {
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  height: 35px;
+  padding-left: 10px;
+  color: var(--font--color);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 740px) {
+  .first_empty,
+  .last_empty {
+    display: none;
+  }
+  .song_name,
+  .artist_name {
+    flex: 2;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .track_number {
+    flex: 1;
+    justify-content: center;
+  }
+}

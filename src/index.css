@@ -1,0 +1,12 @@
+:root {
+  --main-color: #ececec;
+  --font--color: #8f8786;
+  --border-color: #c0c0c0;
+  --hover-color: #1d460a;
+  --items-bg-color: #f7f4f4;
+  --row-hover-color: #ccdbbe;
+}
+
+* {
+  outline-color: var(--hover-color);
+}

@@ -1,0 +1,11 @@
+.message {
+  background-color: rgba(122, 199, 89, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 30%;
+  border-radius: 10px;
+  font: 16px;
+  font-weight: bold;
+}

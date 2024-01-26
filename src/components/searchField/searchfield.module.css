@@ -1,0 +1,26 @@
+.searchField {
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  padding: 3px 8px;
+  width: 200px;
+  height: 30px;
+  color: var(--font--color);
+  cursor: text;
+  background-color: var(--items-bg-color);
+  transition: 0.2s ease-out;
+  padding-left: 35px;
+}
+
+.searchField:hover {
+  border: 1.5px solid var(--hover-color);
+}
+
+.searchFieldWrapper {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}

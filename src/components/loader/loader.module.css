@@ -1,0 +1,23 @@
+.spinnerContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+}
+.spinnerContainer .spinner {
+  animation: rotate 1.5s linear infinite;
+  width: 100px;
+  height: 100px;
+  color: var(--hover-color);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

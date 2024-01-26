@@ -1,0 +1,24 @@
+.addBtn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+  padding-right: 0px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--items-bg-color);
+  transition: 0.2s ease-out;
+}
+
+.addBtn_downArrow {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid var(--border-color);
+  margin-left: 5px;
+}
+
+.addBtn:hover {
+  background-color: var(--hover-color);
+  color: white;
+}
