@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export const useLoader = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -6,5 +6,5 @@ export const useLoader = () => {
   const enableLoader = () => setIsLoading(true);
   const disableLoader = () => setIsLoading(false);
 
-  return {enableLoader, disableLoader, isLoading, }
-}
+  return { enableLoader, disableLoader, isLoading };
+};
